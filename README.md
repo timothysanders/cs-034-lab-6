@@ -7,7 +7,7 @@ Implement operations of singly-linked lists and doubly-linked lists.
 Demonstrate understanding of insert, remove, search, and traversal operations.
 Explore and implement array-based lists.
 
-#Instructions:
+# Instructions:
 
 Part A – Singly-Linked Lists: Tim
 
