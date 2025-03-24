@@ -59,8 +59,15 @@ class DoublyLinkedList:
         if current_node is self.tail:
             self.tail = predecessor_node
     
-    def search(self, target_node):
-        pass
+    def ListTraverse(self):
+        current_node = self.head // Start at head
+
+        while (current_node is not None):
+            print(current_node.data, end = " ")
+            current_node = current_node.next
+
+    '''def search(self, target_node):
+        pass'''
     
     
 if __name__ == "__main__":
