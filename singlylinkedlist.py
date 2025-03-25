@@ -15,7 +15,7 @@ class Node:
         self.data = initial_data
         self.next = None
 
-class LinkedList:
+class SinglyLinkedList:
     """
     The LinkedList class implements a singly-linked list data structure with two attributes, `head` and `tail`.
 
@@ -135,7 +135,7 @@ if __name__ == "__main__":
 
     # Here we can construct an instance of our singly linked list and use assertion statements
     # to validate that updates have been made correctly.
-    list_test = LinkedList()
+    list_test = SinglyLinkedList()
     list_test.append(node_a)
     assert list_test.head.data == 95
     assert list_test.tail.data == 95
